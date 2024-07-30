@@ -1,0 +1,29 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.grid{
+    display: flex;
+    flex-grow: 1;
+    background-color: lightcoral;
+}
+.calc{
+   display: flex;
+   background-color: gray;
+   height: 30rem;
+   width:20rem;
+   flex-direction: column;
+   gap: 5px;
+}
+.num{
+    display: flex;
+    background-color: lightblue;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
